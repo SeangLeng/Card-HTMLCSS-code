@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-box</title>
+    <script src="https://kit.fontawesome.com/dfbc5788ab.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(63, 63, 63);
+        }
+        .card {
+            width: 300px;
+            background-color: aliceblue;
+            padding: 1rem;
+            border-radius: 20px; 
+        }
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+        .stars {
+            display: flex;
+            justify-content: first baseline;
+            align-items: center;
+        }
+        .stars p {
+            margin-left: 20px;
+        }
+        i {
+            color: rgb(241, 139, 16);
+            font-size: 20px;
+        }
+        .buttom{
+            border-top: solid 1px gray;
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .header a {
+            background-color: rgba(237, 146, 237, 0.495);
+            padding: 5px; 
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="./Image/card-image.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="header">
+                <a href="#">All level</a>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <h2>Sketch from A to Z: for app designer</h2>
+            <p>Proposal indulged no do sociable he throwing settling.</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>4.0/5.0</p>
+            </div>
+            <div class="buttom">
+                <div class="time">
+                    <i class="fa-regular fa-clock"></i> 12h 56m
+                </div>
+                <div class="lecture">
+                    <i class="fa-regular fa-calendar-days"></i> 12 lectures
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
