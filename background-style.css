@@ -1,0 +1,36 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(43, 36, 36);
+}
+
+.container {
+    width: 500px;
+    height: 100vh;
+    background-image: url(../images/business-concept-with-team-close-up_23-2149151159.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.boxs {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}   
